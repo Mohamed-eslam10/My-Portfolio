@@ -3,7 +3,7 @@
 export default function Navbar() {
 
 
-    const list = ['Home', 'About', 'Skills', 'Projects', 'Contact']
+    const list: string[] = ['Home', 'About', 'Skills', 'Projects', 'Contact']
     return (
         <div>
             <nav className="flex justify-between items-center p-3 sm:mx-3 ">
