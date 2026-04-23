@@ -1,6 +1,8 @@
 import Navbar from "./Navbar";
 import Me from "./Me";
 import About from "./About";
+import Skills from "./Skills";
+import Projects from "./Projects";
 export default function App() {
   return (
     
@@ -8,6 +10,8 @@ export default function App() {
       <Navbar/> 
       <Me/>
       <About/>
+      <Skills/>
+      <Projects/>
     </div>
   )
 }

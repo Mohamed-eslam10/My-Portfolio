@@ -5,8 +5,8 @@ export default function Navbar() {
 
     const list: string[] = ['Home', 'About', 'Skills', 'Projects', 'Contact']
     return (
-        <div>
-            <nav className="flex sticky top-0 justify-between items-center p-3 sm:mx-3 ">
+        <div className=" sticky top-0 z-10">
+            <nav className="flex shadow bg-white/30 backdrop-blur justify-between items-center p-3 sm:px-4">
                 <div>
                     <h1 className='text-2xl text-blue-600 font-bold'>ME</h1>
                 </div>
