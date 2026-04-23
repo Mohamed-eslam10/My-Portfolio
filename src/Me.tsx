@@ -26,7 +26,7 @@ export default function Me() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mb-2">
                 <button className="bg-blue-600 cursor-pointer text-white h-10 px-4  text-xs sm:text-base sm:px-2 rounded-md hover:bg-blue-700"><a href="#projects">View My Work</a></button>
-                <button className="border cursor-pointer border-blue-600 text-blue-600  h-10 px-4  text-xs sm:text-base sm:px-2 rounded-md hover:bg-blue-100">Get In Touch</button>
+                <button className="border cursor-pointer border-blue-600 text-blue-600  h-10 px-4  text-xs sm:text-base sm:px-2 rounded-md hover:bg-blue-100"><a href="#contact">Get In Touch</a></button>
             </div>
             <div className="flex gap-4">
                 <a href="https://github.com/Mohamed-eslam10"><VscGithubAlt className="text-slate-700 text-2xl" /></a>
