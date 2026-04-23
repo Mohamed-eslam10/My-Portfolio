@@ -44,9 +44,9 @@ export default function Contact() {
                     <h2 className="text-lg font-semibold text-slate-800 ">Send Me a Message</h2>
                     <p className="text-slate-500">Fill out the form below and I will get back to you as soon as possible.</p>
                     <form className="flex flex-col gap-4 mt-4">
-                        <input type="text" placeholder="Your Name" className="border border-slate-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500" />
-                        <input type="email" placeholder="Your Email" className="border border-slate-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500" />
-                        <textarea placeholder="Your Message" className="border border-slate-300 rounded-lg p-3 h-32 resize-none focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                        <input type="text" placeholder="Your Name" className="border border-slate-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-slate-500" />
+                        <input type="email" placeholder="Your Email" className="border border-slate-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-slate-500" />
+                        <textarea placeholder="Your Message" className="border border-slate-300 rounded-lg p-3 h-32 resize-none focus:outline-none focus:ring-2 focus:ring-slate-500"></textarea>
                         <button className="bg-slate-700 text-white py-2 px-4 rounded-lg hover:bg-slate-800 transition-colors duration-300 cursor-pointer">Send Message</button>
                     </form>
 
