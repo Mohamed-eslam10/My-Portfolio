@@ -1,4 +1,3 @@
-import { LuCodeXml } from "react-icons/lu";
 
 export default function SkillComp({ logo, title, description, items }: { logo: React.ReactNode, title: string, description: string, items: string[] }) {
     return (

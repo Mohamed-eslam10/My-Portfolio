@@ -1,4 +1,3 @@
-import frontend from './assets/front-person.png';
 import { VscGithubAlt } from "react-icons/vsc";
 import { GrShare } from "react-icons/gr";
 
