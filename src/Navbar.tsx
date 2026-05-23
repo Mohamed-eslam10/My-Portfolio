@@ -1,10 +1,10 @@
-
+import ScrollLine from "./ScrollLine"
 export default function Navbar() {
 
 
     const list: string[] = ['Home', 'About', 'Skills', 'Projects', 'Contact']
     return (
-        <div className=" sticky top-0 z-10">
+        <div className=" sticky top-0 z-10 relative">
             <nav className="flex shadow bg-white/30 backdrop-blur justify-between items-center p-3 sm:px-4">
                 <div>
                     <h1 className='text-2xl text-blue-600 font-bold'>ME</h1>
@@ -22,7 +22,9 @@ export default function Navbar() {
 
                     )}
                 </ul>
+
             </nav>
+            <ScrollLine />
         </div>
     )
 }
