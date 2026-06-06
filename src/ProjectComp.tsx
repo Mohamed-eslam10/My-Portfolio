@@ -12,7 +12,7 @@ export default function ProjectComp({ picture, title, description, items, code, 
             </motion.div>
             <div className="p-3 mt-3">
                 <h2 className='font-semibold'>{title}</h2>
-                <p>{description}</p>
+                <p className="line-clamp-1">{description}</p>
             </div>
             <div className="flex gap-3 p-3 flex-wrap ">
                 {

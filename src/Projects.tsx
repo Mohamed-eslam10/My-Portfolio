@@ -82,11 +82,11 @@ export default function Projects() {
           >
           <ProjectComp
             picture='https://tse4.mm.bing.net/th/id/OIP.F_FF1F6-f7Wh5JQMRb6TBwAAAA?rs=1&pid=ImgDetMain&o=7&rm=3'
-            title="Project 2"
-            description="Description for Project 2"
-            items={["TypeScript", "Node.js"]}
-            code="https://github.com"
-            demo="https://github.com" />
+            title="Daily to do app"
+            description="A responsive Todo App built with React, TypeScript, and Tailwind"
+            items={["TypeScript", "react",'Tailwind']}
+            code="https://github.com/Mohamed-eslam10/Daily-to-do-app.git"
+            demo="https://daily-to-do-appp.netlify.app" />
 
         </motion.div>
         <motion.div variants={cardVariants}
