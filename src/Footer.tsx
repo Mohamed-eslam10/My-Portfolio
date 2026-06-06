@@ -16,7 +16,7 @@ export default function Footer() {
                 <div>
                     <p className="text-white font-medium mb-2">Quick Links</p>
                     <div className="flex flex-col">
-                        {footerList.map((item, index) => <a key={index} href={`#${item}`} className="text-slate-200 hover:text-white">{item}</a>
+                        {footerList.map((item) => <a key={item} href={`#${item}`} className="text-slate-200 hover:text-white">{item}</a>
                         )}
                     </div>
                 </div>
