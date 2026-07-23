@@ -1,6 +1,7 @@
 import ProjectComp from "./ProjectComp";
 import ProjectComing from "./ProjectComing";
 import { motion, type Variants } from "framer-motion";
+import eCommerce from "./assets/e-commerce.png";
 export default function Projects() {
 
   const containerVariants: Variants = {
@@ -66,7 +67,7 @@ export default function Projects() {
           transition={{ type: "spring", stiffness: 300 }}
           >
           <ProjectComp
-            picture='src/assets/e-commerce.png'
+            picture={eCommerce}
             title="E-commerce"
             description="A fully responsive E-commerce application focused on performance and user experience"
             items={["Next", "Tailwind","Swiper","Typescript","Zustand",]}
