@@ -66,29 +66,15 @@ export default function Projects() {
           transition={{ type: "spring", stiffness: 300 }}
           >
           <ProjectComp
-            picture='https://th.bing.com/th/id/R.1d997df54a76c0871a1c8ced2cb9adb4?rik=gVOf3XEwWqnwCg&pid=ImgRaw&r=0'
-            title="Project 1"
-            description="Description for Project 1"
-            items={["JavaScript", "React"]}
-            code="https://github.com"
-            demo="https://github.com" />
+            picture='src/assets/e-commerce.png'
+            title="E-commerce"
+            description="A fully responsive E-commerce application focused on performance and user experience"
+            items={["Next", "Tailwind","Swiper","Typescript","Zustand",]}
+            code="https://github.com/Mohamed-eslam10/E-commerce"
+            demo="https://e-commerce-41.vercel.app/" />
         </motion.div>
-        <motion.div variants={cardVariants}
-          whileHover={{
-            y: -10,
-            scale: 1.03,
-          }}
-          transition={{ type: "spring", stiffness: 300 }}
-          >
-          <ProjectComp
-            picture='https://tse4.mm.bing.net/th/id/OIP.F_FF1F6-f7Wh5JQMRb6TBwAAAA?rs=1&pid=ImgDetMain&o=7&rm=3'
-            title="Daily to do app"
-            description="A responsive Todo App built with React, TypeScript, and Tailwind"
-            items={["TypeScript", "react",'Tailwind']}
-            code="https://github.com/Mohamed-eslam10/Daily-to-do-app.git"
-            demo="https://daily-to-do-appp.netlify.app" />
-
-        </motion.div>
+       
+        {/* coming */}
         <motion.div variants={cardVariants}
           whileHover={{
             y: -10,
